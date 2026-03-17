@@ -4,28 +4,30 @@
     <title>Marianna Espinola</title>
     <style>
         body {
-            font-family: 'Arial';
             margin: 0;
-            background: linear-gradient(to right, #f8f8f8, #ffeef3);
+            font-family: Arial;
+            background: #f9f9fb;
         }
 
         header {
+            background: linear-gradient(135deg, #ff4d88, #ff99ac);
+            color: white;
             text-align: center;
             padding: 60px 20px;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 36px;
+        header img {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
         }
 
-        header p {
-            color: gray;
-            font-size: 18px;
+        header h1 {
+            margin: 10px 0;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
         }
@@ -33,38 +35,33 @@
         .card {
             background: white;
             padding: 25px;
-            margin-bottom: 20px;
+            margin: 20px 0;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
         }
 
         h2 {
             margin-top: 0;
         }
 
-        .highlight {
-            color: #e91e63;
-            font-weight: bold;
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff4d88;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #e6005c;
         }
 
         footer {
             text-align: center;
             padding: 20px;
             color: gray;
-            font-size: 14px;
-        }
-
-        button {
-            background: #e91e63;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #d81b60;
         }
     </style>
 </head>
@@ -72,7 +69,8 @@
 <body>
 
 <header>
-    <h1>✨ Marianna Espinola</h1>
+    <img src="IMG_8023.heic">
+    <h1>Marianna Espinola 👩‍💻</h1>
     <p>Estudante de Sistemas de Informação</p>
 </header>
 
@@ -80,32 +78,30 @@
 
     <div class="card">
         <h2>Sobre mim 💖</h2>
-        <p>Sou estudante de Sistemas de Informação, apaixonada por tecnologia e aprendizado contínuo. Estou construindo minha jornada na área de TI com foco em desenvolvimento.</p>
+        <p>Sou estudante de Sistemas de Informação com interesse em desenvolvimento e tecnologia. Estou construindo meus primeiros projetos e buscando minha primeira oportunidade na área de TI.</p>
     </div>
 
     <div class="card">
-        <h2>Habilidades 🚀</h2>
-        <p>
-            <span class="highlight">Lógica de programação</span> • 
-            HTML • CSS • Inglês avançado
-        </p>
+        <h2>Projetos 🚀</h2>
+        <p>✔ Meu primeiro site em HTML</p>
+        <p>✔ Portfólio pessoal</p>
     </div>
 
     <div class="card">
-        <h2>Meu objetivo 🎯</h2>
-        <p>Conquistar minha primeira oportunidade de estágio na área de tecnologia e crescer profissionalmente.</p>
+        <h2>Habilidades 💡</h2>
+        <p>Lógica de programação • HTML • CSS • Inglês avançado</p>
     </div>
 
     <div class="card">
         <h2>Contato 📩</h2>
         <p>Email: mari.espinolas@hotmail.com</p>
-        <p>GitHub: github.com/mariannaespinola</p>
+        <a class="btn" href="https://github.com/mariannaespinola" target="_blank">Ver GitHub</a>
     </div>
 
 </div>
 
 <footer>
-    Feito com 💕 por Marianna
+    © 2026 - Marianna Espinola
 </footer>
 
 </body>
